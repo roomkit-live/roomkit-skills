@@ -1,0 +1,30 @@
+{
+  "name": "roomkit-skills",
+  "owner": { "name": "RoomKit", "email": "hello@roomkit.live" },
+  "metadata": {
+    "description": "Skills for building multi-channel AI agents with RoomKit",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "roomkit-dev",
+      "description": "Complete skill set for building multi-channel conversation agents with RoomKit — rooms, AI, voice, SMS, hooks, orchestration, and more",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./setup-project",
+        "./create-room",
+        "./create-ai-channel",
+        "./create-voice-agent",
+        "./create-sms-channel",
+        "./add-hooks",
+        "./create-multichannel",
+        "./setup-orchestration",
+        "./create-telegram-bot",
+        "./create-whatsapp-agent",
+        "./setup-postgres",
+        "./setup-telemetry"
+      ]
+    }
+  ]
+}
