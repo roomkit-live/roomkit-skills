@@ -9,7 +9,8 @@ RoomKit is a pure async Python library that unifies SMS, RCS, Email, WhatsApp, M
 ### Claude Code Plugin (recommended)
 
 ```bash
-claude plugin install roomkit-skills
+claude plugin marketplace add https://github.com/roomkit-live/roomkit-skills
+claude plugin install roomkit-dev
 ```
 
 ### Manual Copy
